@@ -11,14 +11,23 @@ export const metadata: Metadata = {
 
 import { fontInter } from '~/libs/font'
 
+import { Header } from '~/components/Header'
+import { Providers } from '~/components/Providers'
+
 interface RootLayoutProps {
   children: React.ReactNode
 }
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
-    <html lang="pt-br" className={fontInter.variable}>
-      <body>{children}</body>
+    <html lang="pt-br" className={fontInter.variable} suppressHydrationWarning>
+      <body>
+        <Providers>
+          <Header />
+
+          <>{children}</>
+        </Providers>
+      </body>
     </html>
   )
 }

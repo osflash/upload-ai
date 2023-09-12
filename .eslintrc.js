@@ -18,6 +18,7 @@ const eslintConfig = {
           '/^~/hooks/',
           '/^~/providers/',
           '/^~/components/',
+          '/^~/components/ui/',
           '/^~/',
           ['parent', 'sibling', 'index']
         ],
