@@ -15,7 +15,7 @@ export const FormTranscription: React.FC = () => {
         className="flex aspect-video cursor-pointer flex-col items-center justify-center gap-2 rounded-md border border-dashed text-sm text-muted-foreground hover:bg-primary/5"
       >
         <FileVideo className="h-4 w-4" />
-        Slecione um vídeo
+        Selecione um vídeo
       </label>
 
       <input type="file" id="video" accept="video/mp4" className="sr-only" />
