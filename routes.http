@@ -1,0 +1,24 @@
+# @name get-prompts
+GET http://localhost:3000/api/prompts
+
+###
+
+# @name create-transcription
+POST http://localhost:3000/api/videos/bafybeideixaliacq23pzkyllmgpqyn6sdsmydxtp5yhnrx5eyquadszmvm/transcription
+Content-Type: application/json
+
+{
+  "prompt": "ddd"
+}
+
+###
+
+# @name create-transcription
+POST http://localhost:3000/api/ai/complete
+Content-Type: application/json
+
+{
+  "cid": "bafkreiblflrzhjn772qw5ysufyih5fvrcm7luijinen6slfew3axcdw364",
+  "temperature": 0.5,
+  "prompt": "Gere um resumo da transcrição do vídeo informada a seguir: '''{transcription}'''"
+}

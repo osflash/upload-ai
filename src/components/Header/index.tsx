@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Link from 'next/link'
+
 import { Github } from 'lucide-react'
 
 import { ToggleTheme } from '~/components/ToggleTheme'
@@ -18,9 +20,15 @@ export const Header: React.FC = () => {
 
         <Separator orientation="vertical" className="h-6" />
 
-        <Button variant="outline">
-          <Github className="mr-2 h-4 w-4" />
-          Github
+        <Button variant="outline" asChild>
+          <Link
+            href="https://github.com/osflash/upload-ai"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Github className="mr-2 h-4 w-4" />
+            Github
+          </Link>
         </Button>
         <ToggleTheme />
       </div>
