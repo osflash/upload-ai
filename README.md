@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Capa](.github/cover.png)
 
-## Getting Started
+<h1 align="center">
+  Next Level Week IA - 2023
+</h1>
 
-First, run the development server:
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## ✨ Tecnologias
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org)
+- [Tailwind](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vercel](https://vercel.com/)
+- [zod](https://zod.dev/)
+- [ai](https://sdk.vercel.ai/)
+- [nft.storage](https://nft.storage/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 💻 Projeto
 
-## Learn More
+Crie títulos envolventes e descrições otimizadas para seus vídeos com facilidade usando nossa aplicação de upload de vídeos, alimentada por inteligência artificial para uma indexação eficaz.
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Como executar
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone o repositório
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Como visualizar a versão para web
 
-## Deploy on Vercel
+   - Instale as dependências com `bun install`
+   - Inicie o next.js com `bun dev`
+     - Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 Licença
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+<p align="center">Feito com ♥️ by OsFlash 🚀</p>
