@@ -28,16 +28,14 @@ export const POST = async (request: NextRequest, { params }: Params) => {
 
   const file = await getAudio(cid)
 
-  const transcription = 'texto gerado pela IA'
-
-  // const { text: transcription } = await openai.audio.transcriptions.create({
-  //   file,
-  //   model: 'whisper-1',
-  //   language: 'pt',
-  //   response_format: 'json',
-  //   temperature: 0,
-  //   prompt
-  // })
+  const { text: transcription } = await openai.audio.transcriptions.create({
+    file,
+    model: 'whisper-1',
+    language: 'pt',
+    response_format: 'json',
+    temperature: 0,
+    prompt
+  })
 
   const audioFile = new File([await file.blob()], 'audio.mp3', {
     type: 'audio/mpeg'
