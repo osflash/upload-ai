@@ -38,7 +38,7 @@
     "next-themes": "^0.2.1",
     "nft.storage": "^7.1.1",
     "openai": "^4.6.0",
-    "postcss": "8.4.29",
+    "postcss": "8.4.31",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.46.1",
